@@ -20,7 +20,7 @@ tauri-build = { version = "2.0.1", features = [] }
 [dependencies]
 serde_json = "1.0"
 serde = { version = "1.0", features = ["derive"] }
-tauri = { version = "2.0.1", features = ["macos-private-api", "tray-icon"] }
+tauri = { version = "2.0.2", features = ["macos-private-api", "tray-icon"] }
 reqwest = { version = "0.12.8", features = ["json"] }
 tokio = { version = "1", features = ["full"] }
 minecraft-essentials = {version = "0.2.11", features = [] }
